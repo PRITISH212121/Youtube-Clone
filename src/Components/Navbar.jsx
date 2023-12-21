@@ -17,7 +17,11 @@ const Navbar = () => {
         justifyContent: "space-between",
       }}
     >
-      <img src={logo} height={45} alt="logo"></img>
+      <Link to={"./"}>
+        {" "}
+        <img src={logo} height={45} alt="logo" />
+      </Link>
+
       <SearchBar />
     </Stack>
   );
