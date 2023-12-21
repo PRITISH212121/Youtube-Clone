@@ -11,7 +11,11 @@ const SideBar = ({ selectedcategory, setselectedcategory }) => {
           md: "column",
           sx: "row",
         },
-        OverflowY: "auto",
+        OverflowY: {
+          md: "auto",
+          sx: "hidden",
+        },
+
         height: {
           sx: "auto",
           md: "95%",
